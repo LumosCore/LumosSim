@@ -1,0 +1,253 @@
+{
+    "directed": true,
+    "multigraph": false,
+    "graph": {},
+    "nodes": [
+        {
+            "id": 0
+        },
+        {
+            "id": 1
+        },
+        {
+            "id": 2
+        },
+        {
+            "id": 3
+        },
+        {
+            "id": 4
+        },
+        {
+            "id": 5
+        },
+        {
+            "id": 6
+        },
+        {
+            "id": 7
+        }
+    ],
+    "links": [
+        {
+            "capacity": 10000.0,
+            "source": 0,
+            "target": 2
+        },
+        {
+            "capacity": 40000.0,
+            "source": 0,
+            "target": 4
+        },
+        {
+            "capacity": 60000.0,
+            "source": 0,
+            "target": 5
+        },
+        {
+            "capacity": 50000.0,
+            "source": 0,
+            "target": 7
+        },
+        {
+            "capacity": 20000.0,
+            "source": 1,
+            "target": 2
+        },
+        {
+            "capacity": 60000.0,
+            "source": 1,
+            "target": 3
+        },
+        {
+            "capacity": 10000.0,
+            "source": 1,
+            "target": 4
+        },
+        {
+            "capacity": 40000.0,
+            "source": 1,
+            "target": 5
+        },
+        {
+            "capacity": 30000.0,
+            "source": 1,
+            "target": 6
+        },
+        {
+            "capacity": 10000.0,
+            "source": 2,
+            "target": 0
+        },
+        {
+            "capacity": 20000.0,
+            "source": 2,
+            "target": 1
+        },
+        {
+            "capacity": 20000.0,
+            "source": 2,
+            "target": 3
+        },
+        {
+            "capacity": 20000.0,
+            "source": 2,
+            "target": 4
+        },
+        {
+            "capacity": 30000.0,
+            "source": 2,
+            "target": 5
+        },
+        {
+            "capacity": 40000.0,
+            "source": 2,
+            "target": 6
+        },
+        {
+            "capacity": 20000.0,
+            "source": 2,
+            "target": 7
+        },
+        {
+            "capacity": 60000.0,
+            "source": 3,
+            "target": 1
+        },
+        {
+            "capacity": 20000.0,
+            "source": 3,
+            "target": 2
+        },
+        {
+            "capacity": 40000.0,
+            "source": 3,
+            "target": 4
+        },
+        {
+            "capacity": 10000.0,
+            "source": 3,
+            "target": 6
+        },
+        {
+            "capacity": 30000.0,
+            "source": 3,
+            "target": 7
+        },
+        {
+            "capacity": 40000.0,
+            "source": 4,
+            "target": 0
+        },
+        {
+            "capacity": 10000.0,
+            "source": 4,
+            "target": 1
+        },
+        {
+            "capacity": 20000.0,
+            "source": 4,
+            "target": 2
+        },
+        {
+            "capacity": 40000.0,
+            "source": 4,
+            "target": 3
+        },
+        {
+            "capacity": 20000.0,
+            "source": 4,
+            "target": 5
+        },
+        {
+            "capacity": 20000.0,
+            "source": 4,
+            "target": 6
+        },
+        {
+            "capacity": 10000.0,
+            "source": 4,
+            "target": 7
+        },
+        {
+            "capacity": 60000.0,
+            "source": 5,
+            "target": 0
+        },
+        {
+            "capacity": 40000.0,
+            "source": 5,
+            "target": 1
+        },
+        {
+            "capacity": 30000.0,
+            "source": 5,
+            "target": 2
+        },
+        {
+            "capacity": 20000.0,
+            "source": 5,
+            "target": 4
+        },
+        {
+            "capacity": 10000.0,
+            "source": 5,
+            "target": 6
+        },
+        {
+            "capacity": 30000.0,
+            "source": 6,
+            "target": 1
+        },
+        {
+            "capacity": 40000.0,
+            "source": 6,
+            "target": 2
+        },
+        {
+            "capacity": 10000.0,
+            "source": 6,
+            "target": 3
+        },
+        {
+            "capacity": 20000.0,
+            "source": 6,
+            "target": 4
+        },
+        {
+            "capacity": 10000.0,
+            "source": 6,
+            "target": 5
+        },
+        {
+            "capacity": 50000.0,
+            "source": 6,
+            "target": 7
+        },
+        {
+            "capacity": 50000.0,
+            "source": 7,
+            "target": 0
+        },
+        {
+            "capacity": 20000.0,
+            "source": 7,
+            "target": 2
+        },
+        {
+            "capacity": 30000.0,
+            "source": 7,
+            "target": 3
+        },
+        {
+            "capacity": 10000.0,
+            "source": 7,
+            "target": 4
+        },
+        {
+            "capacity": 50000.0,
+            "source": 7,
+            "target": 6
+        }
+    ]
+}
