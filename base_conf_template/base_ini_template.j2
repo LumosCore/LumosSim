@@ -1,0 +1,165 @@
+[Parameter]  # Do not modify
+seed = {{ some_value | default(10) }}
+
+# The sequence number of NICs is [0, 1, ..., 2047]
+NIC_num = {{ NIC_num }}
+NIC_num_in_a_server = {{ NIC_num_in_a_server }}
+
+
+# The global id of leaf switches is [2048, ..., 2111] 
+leaf_switch_num = {{ leaf_switch_num }}
+
+leaf_switch_port_num = {{ leaf_switch_port_num }}
+spine_switch_port_num = {{ spine_switch_port_num }}
+
+# The global id of spine switches is [2112, ..., 2143]
+spine_switch_num = {{ spine_switch_num }}
+
+# The link num between one leaf switch and one spine switch
+leaf_spine_link_num = {{ leaf_spine_link_num }}
+
+layers = {{ layers }}
+
+core_switch_num = {{ core_switch_num }}
+
+inner_server_bandwidth = {{ inner_server_bandwidth }}
+# 100Gbps = 100 * 1024 * 1024 * 1024 bit / 1000000000 ns ~= 100 bit / ns
+switch_port_bandwidth = {{ switch_port_bandwidth }}
+
+computation_time = {{ computation_time }}
+
+joint_scheduler = {{ joint_scheduler }}
+
+downlinks = {{ downlinks }}
+
+measure_sampling_interval = {{ measure_sampling_interval }}
+
+find_path_method = {{ find_path_method }}
+
+find_next_hop_method = {{ find_next_hop_method }}
+
+greedy = {{ greedy }}
+
+bandwidth_allocation = {{ bandwidth_allocation }}
+
+TCP_type = {{ TCP_type }}
+
+core_run_type = {{ core_run_type }}
+
+time_tick = {{ time_tick }}
+
+reconfiguration = {{ reconfiguration }}
+
+ocs_reconfiguration = {{ ocs_reconfiguration }}
+
+port_routing = {{ port_routing }}
+
+rerouting = {{rerouting}}
+
+sync_delay_alpha = {{ sync_delay_alpha }}
+
+helper_root_path = {{ helper_root_path }}
+
+with_link_weight = {{ with_link_weight }}
+
+use_lstm = {{ use_lstm }}
+
+lstm_hidden_dim = {{ lstm_hidden_dim }}
+
+lstm_layers = {{ lstm_layers }}
+
+vclos_model_path = {{ vclos_model_path }}
+
+figret_hist_len = {{ figret_hist_len }}
+
+[Topology]   # Do not modify
+topo_type = {{ topo_type }}
+
+ocs_num = {{ ocs_num }}
+
+pod_num = {{ pod_num }}
+
+server_num_per_pod = {{ server_num_per_pod }}
+
+# The ID of NIC starts from 0.
+# The ID of switch starts from the maximum NIC ID + 1.
+# (src_id, dst_id, link_num)
+connect_info_list = {{ connect_info_str }}
+
+[Task]
+task_type = {{ task_type }}
+
+task_iteration_num = {{task_iteration_num}}
+
+waiting_task_order_mode = {{ waiting_task_order_mode }}
+
+# [(arriving_time, model_size (Gbit) at every NIC, task_occupied_NIC_num), ...]. Note that order by arriving_time.
+task_list = {{ task_list }}
+
+flow_arrivals_list = {{ flow_arrivals_list }}
+
+best = {{ best }}
+
+banned_spine_num = {{ banned_spine_num }}
+
+max_rehashing_time = {{max_rehashing_time}}
+
+over_subscription = {{over_subscription}}
+
+static_exp = {{static_exp}}
+
+comp_ratio = {{comp_ratio}}
+
+is_two_iter = {{is_two_iter}}
+
+no_opt = {{no_opt}}
+
+figret_topo_name = {{figret_topo_name}}
+
+figret_model_path = {{ figret_model_path }}
+
+figret_toe_model_path = {{ figret_toe_model_path }}
+
+figret_data_dir = {{figret_data_dir}}
+
+figret_integration = {{figret_integration}}
+
+figret_te_interval = {{figret_te_interval}}
+
+figret_toe_data_dir = {{figret_toe_data_dir}}
+
+figret_toe_integration = {{figret_toe_integration}}
+
+figret_toe_interval = {{figret_toe_interval}}
+
+traffic_matrix_statistics = {{traffic_matrix_statistics}}
+
+traffic_matrix_level = {{traffic_matrix_level}}
+
+traffic_matrix_statistics_interval = {{traffic_matrix_statistics_interval}}
+
+rail_optimized = {{rail_optimized}}
+
+failure_interval = {{failure_interval}}
+
+strategy = {{strategy}}
+
+need_comm_orc = {{need_comm_orc}}
+
+ignore_intra_pod = {{ignore_intra_pod}}
+
+arranged_alltoall = {{arranged_alltoall}}
+
+super_pod = {{super_pod}}
+
+only_comm = {{only_comm}}
+
+ignore_schedule_cost = {{ignore_schedule_cost}}
+
+test = {{test}}
+
+
+
+
+
+basic_mcf = {{basic_mcf}}

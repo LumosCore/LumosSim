@@ -1,0 +1,9 @@
+from abc import abstractmethod
+
+
+class BaseScheduler:
+    def __init__(self): ...
+    @abstractmethod
+    def schedule(self): ...
+    @abstractmethod
+    def update_finished_job(self): ...
